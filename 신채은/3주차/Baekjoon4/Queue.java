@@ -20,7 +20,7 @@ class Queue {
 
     System.out.println(queueFront);
 
-    if(queueFront.equals("-1")) { //스텍에 들어있는게 없으므로 아래 과정 진행 X 리턴
+    if(queueFront.equals("-1")) { //들어있는게 없으므로 아래 과정 진행 X 리턴
       return -1;
     }
 
